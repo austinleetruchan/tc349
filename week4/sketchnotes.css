@@ -1,0 +1,56 @@
+body {
+	background: #CCC;
+	border-top: solid 10px #036;
+	margin: 0;
+	font-family:"Futura", sans-serif;
+	text-align: center;
+}
+
+.container {
+	margin: 0 auto;
+	width: 800px;
+	
+}
+
+h1 {
+	font-size: 50px;
+	color: #099;
+	margin: 0;
+	padding: 0;
+	border-bottom: solid 1px #fff;
+	
+}
+
+h2 {
+	color: #666;
+	border-top: solid 1px #fff;
+	border-bottom: solid 1px #fff;
+	margin: 8px 0 8px 0;
+	padding: 5px;
+}
+
+h3 {
+	color: #036;
+	margin: 10px 0 0 0;
+	border-top: solid 1px #fff;
+	padding: 10px 0 0 0;
+	font-size: 36px
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	color: #999
+}
+
+p.remember {
+	color: #C63;
+	border-top: solid 1px #fff;
+	padding: 10px 0 0 0;
+	margin:
+}
+
+img {
+	margin: 0px 0 20px 0;
+	border: solid 1px #036;
+}
