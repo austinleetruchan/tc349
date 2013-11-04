@@ -133,7 +133,7 @@ ul {
 	background: #CCC;
 	background-position: center;
 	height: 250px;
-	transition:background-image 4s;
+	transition:background-image 1s;
 }
 
 nav {
