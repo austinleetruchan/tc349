@@ -281,7 +281,7 @@ nav a:hover {
    Modify as content requires.
    ========================================================================== */
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
     nav {
 	float: none;
 	width: auto;
@@ -319,7 +319,7 @@ h2 {
 	font-size:12px;
 }
 }
-@media (max-width: 321px) {
+@media (max-width: 480px) {
     nav {
 	float: none;
 	width: auto;
