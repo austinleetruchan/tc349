@@ -1,0 +1,236 @@
+/* General Demo Style */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+html {
+background: #a2622a; /* Old browsers */
+
+background: -moz-linear-gradient(top,  #a2622a 0%, #5b1f5b 100%) fixed; /* FF3.6+ */
+
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a2622a), color-stop(100%,#5b1f5b)) fixed; /* Chrome,Safari4+ */
+
+background: -webkit-linear-gradient(top,  #a2622a 0%,#5b1f5b 100%) ; /* Chrome10+,Safari5.1+ */
+
+background: -o-linear-gradient(top,  #a2622a 0%,#5b1f5b 100%) fixed; /* Opera 11.10+ */
+
+background: -ms-linear-gradient(top,  #a2622a 0%,#5b1f5b 100%) fixed; /* IE10+ */
+
+background: linear-gradient(to bottom,  #a2622a 0%,#5b1f5b 100%) fixed; /* W3C */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a2622a', endColorstr='#5b1f5b',GradientType=0 ) fixed; /* IE6-9 */
+}
+
+body {
+	width: auto;
+}
+
+html, body {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+@font-face {
+    font-family: 'QuicksandLight';
+    src: url('../Quicksand_Light-webfont.eot');
+    src: url('../Quicksand_Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../Quicksand_Light-webfont.woff') format('woff'),
+         url('../Quicksand_Light-webfont.ttf') format('truetype'),
+         url('../Quicksand_Light-webfont.svg#QuicksandLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+h4 {
+	font-family: 'QuicksandLight';
+	line-height: 150%;
+	font-weight:lighter;
+	font-size: 50px;
+	color: #FFF;
+}
+
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #333;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+
+a {
+	color: #555;
+	text-decoration: none;
+}
+
+.container {
+	width: 100%;
+	position: relative;
+}
+
+#back {
+	position: relative;
+}
+
+img.back {
+	border-radius: 200px;
+	transition: opacity .5s ease-in-out;
+	position: absolute;
+}
+
+img.back:hover {
+	opacity: 0;
+}
+
+#wrapper {
+	text-align: center;
+	margin-top: 3%;
+}
+
+img.banner {
+	text-align:center;
+	margin-left: 3%;
+}
+
+img.me {
+	margin-top: 0px;
+	text-align:center;
+}
+
+#wrapper2 {
+	margin-top: 30px;
+	text-align: center;
+}
+
+#wrapper2 img:hover {
+	opacity:.2;
+}
+
+img.twitter {
+	text-align: center;
+	transition: opacity .25s ease-in-out;
+}
+
+img.twitter:hover {
+	opacity:.2;
+}
+
+img.facebook {
+	text-align: center;
+	transition: opacity .25s ease-in-out;
+}
+
+img.instagram {
+	text-align: center;
+	transition: opacity .25s ease-in-out;
+}
+
+img.mail {
+	margin-left: 5px;
+	text-align: center;
+	transition: opacity .25s ease-in-out;
+}
+
+div.portlabel h4 {
+	margin: 50px 5% 0 5%;
+	border-top: solid 1px #FFF;
+	border-bottom: solid 1px #FFF;
+	opacity: 1;
+	text-align: center;
+}
+
+div.portwrap {
+	text-align:center;
+}
+
+ul.og-grid li {
+	margin: 30px 1% 1% 1%;;
+}
+
+
+img.port {
+	margin: 0;	
+	border: solid 5px transparent;
+	border-radius: 200px;
+	transition: opacity .4s ease-in-out;
+}
+
+img.port:hover {
+	opacity: .5;
+}
+
+li.portweblabel h4 {
+	margin: 50px 0 60px 0;
+	padding: 0;
+	border-top: solid 1px #FFF;
+	border-bottom: solid 1px #FFF;
+	opacity: 1;
+	text-align: center;
+	width: 100%;
+}
+
+li.portweblabel {
+	width: 90%;
+	height: 100px;
+	list-style: none;
+	text-align: center;
+}
+
+img.webport {
+	margin-top: 50px;	
+	border: solid 5px transparent;
+	border-radius: 200px;
+	transition: opacity .4s ease-in-out;
+}
+
+img.webport:hover {
+	opacity: .5;
+}
+
+div.portweblabel h4{
+	margin: 50px 0 20px 0;
+	border-top: solid 1px #FFF;
+	border-bottom: solid 1px #FFF;
+	opacity: 1;
+	text-align: center;
+}
+
+img.footerimg {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	height:auto;
+	text-align:center;
+}
+
+
+#footer {
+	text-align:center;
+	margin-top: 50px;
+	}
